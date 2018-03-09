@@ -49,6 +49,9 @@ Usage Examples
    curl -XGET -H "Content-type: application/json" -H "Accept: application/json" "http://localhost:8080/api/metrics"
 
 ```
-#Build
-mvn clean install -Dmaven.test.skip=true 或者
+### Build
+```bash
+mvn clean install -Dmaven.test.skip=true 
+
 mvn clean package -Dmaven.test.skip=true
+```
